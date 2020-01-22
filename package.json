@@ -1,0 +1,45 @@
+{
+  "name": "vue-soundcloud-player",
+  "version": "1.0.0",
+  "description": "Custom Soundcloud player supporting single tracks & playlists",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config --progress --colors -p",
+    "lint": "eslint 'src/**/*.{js,vue}'",
+    "storybook": "start-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matswainson/vue-soundcloud-player.git"
+  },
+  "keywords": [
+    "vue",
+    "soundcloud",
+    "player"
+  ],
+  "author": "Mat Swainson <mat@matswainson.com> (http://matswainson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matswainson/vue-soundcloud-player/issues"
+  },
+  "homepage": "https://github.com/matswainson/vue-soundcloud-player#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@storybook/vue": "^5.3.6",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "vue": "^2.6.11"
+  }
+}
