@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="sc-player"
+>
+  <!---->
+   
+  <!---->
+   
+  <iframe
+    allow="autoplay"
+    frameborder="no"
+    height="450"
+    scrolling="no"
+    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/370226924&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+    title="Soundcloud"
+    width="100%"
+  />
+</div>
+`;

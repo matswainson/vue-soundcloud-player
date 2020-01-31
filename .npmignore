@@ -1,5 +1,8 @@
+__mocks__/
+__tests__/
 .browserslistrc
 babel.config.json
+jest.config.js
 postcss.config.js
 src
 webpack.config.js
