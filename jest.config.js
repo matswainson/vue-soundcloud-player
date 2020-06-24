@@ -1,5 +1,5 @@
 module.exports = {
-  "moduleFileExtensions": [
+  moduleFileExtensions: [
     "css",
     "js",
     "jsx",
@@ -10,8 +10,8 @@ module.exports = {
   },
   rootDir: './',
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-  "transform": {
-    "^.+\\.(js|jsx)?$": "<rootDir>/node_modules/babel-jest",
+  transform: {
+    "^.+\\.(js|jsx)?$": "babel-jest",
     ".*\\.(vue)$": "vue-jest"
   },
   watchman: false

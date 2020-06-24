@@ -98,6 +98,13 @@ export default {
     }
   },
   methods: {
+    bindSoundcloudPlayer() {
+      this.bindSoundcloudApi();
+      this.bindSoundcloudEvents();
+    },
+    bindSoundcloudApi() {
+      this.soundcloud = window.SC.Widget(this.iframeRef);
+    },
     bindSoundcloudEvents() {
       const component = this;
       this.soundcloud.bind('ready', () => {
@@ -123,10 +130,11 @@ export default {
     },
     onSetIframeRef(iframeRef) {
       this.iframeRef = iframeRef;
-      loadScript(soundcloudApi, () => {
-        this.soundcloud = SC.Widget(this.iframeRef);
-        this.bindSoundcloudEvents();
-      });
+      if (window.SC) {
+        this.bindSoundcloudPlayer();
+      } else {
+        loadScript(soundcloudApi, this.bindSoundcloudPlayer);
+      }
     },
     setCurrentTrack(track, index) {
       this.currentTrack = {

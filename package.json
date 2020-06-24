@@ -1,6 +1,6 @@
 {
   "name": "vue-soundcloud-player",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Custom Soundcloud player supporting single tracks & playlists",
   "main": "dist/index.js",
   "scripts": {
