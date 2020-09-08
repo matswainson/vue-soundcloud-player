@@ -1,4 +1,4 @@
-![vue-soundcloud-player](http://matswainson.com/wp-content/uploads/2020/01/vue-soundcloud-player.png)
+![vue-soundcloud-player](https://matswainson.com/images/github/soundcloud.png)
 
 # Vue custom soundcloud player
 
@@ -6,7 +6,7 @@ Custom Soundcloud player supporting single tracks & playlists
 
 ### Example
 
-![vue-soundcloud-player-2](http://matswainson.com/wp-content/uploads/2020/01/vue-soundcloud-player-2.png)
+![vue-soundcloud-player-2](https://matswainson.com/images/github/soundcloud-player.png)
 
 ```js
 <template>
