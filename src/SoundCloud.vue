@@ -112,6 +112,7 @@ export default {
           const tracks = sounds.filter(sound => sound.hasOwnProperty('title'));
           component.sounds = tracks;
           component.setCurrentTrack(tracks[0], 0);
+          this.$emit(`ready`);
         });
       });
       // eslint-disable-next-line no-undef

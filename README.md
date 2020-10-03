@@ -13,6 +13,7 @@ Custom Soundcloud player supporting single tracks & playlists
   <SoundCloud
     track="194881641"
     :mini="true"
+    @ready="ready"
   />
 </template>
 
@@ -24,6 +25,11 @@ export default {
   components: {
     SoundCloud
   },
+  methods: {
+    ready() {
+      // fired when the player is loaded
+    }
+  }
   ...
 }
 </script>
